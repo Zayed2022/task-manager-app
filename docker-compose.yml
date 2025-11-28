@@ -7,19 +7,26 @@ services:
     restart: always
     ports:
       - "27017:27017"
+    volumes:
+      - mongo_data:/data/db
 
   backend:
-    build: ./backend
+    image: zayed2022/taskmanager-backend:latest
     container_name: backend
-    ports:
-      - "8000:8000"
+    restart: always
     depends_on:
       - mongo
+    ports:
+      - "8000:8000"
 
   frontend:
-    build: ./frontend
+    image: zayed2022/taskmanager-frontend:latest
     container_name: frontend
-    ports:
-      - "8080:80"
+    restart: always
     depends_on:
       - backend
+    ports:
+      - "8080:80"
+
+volumes:
+  mongo_data:
