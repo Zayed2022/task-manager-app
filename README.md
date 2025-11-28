@@ -1,12 +1,3 @@
-
----
-
-# 📘 **README.md — DevOps Task Manager with CI/CD**
-
-**Author:** *Mohammed Zayed*
-
----
-
 # <div align="center"> 🗂️ **DevOps Task Manager with CI/CD** </div>
 
 A fully containerized **Task Manager Application** built with:
@@ -64,7 +55,8 @@ This project demonstrates **end-to-end DevOps**, including containerization, clo
 
 ---
 
-![alt text](<ChatGPT Image Nov 28, 2025, 04_50_29 PM.png>)
+<img width="1536" height="1024" alt="ChatGPT Image Nov 28, 2025, 04_50_29 PM" src="https://github.com/user-attachments/assets/8456eb5c-4726-4d2e-9257-9f6e8b7ff269" />
+
 
 ---
 
