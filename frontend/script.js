@@ -1,4 +1,4 @@
-const API = "http://backend:8000";
+const API = "/api";
 
 async function loadTasks() {
     let res = await fetch(`${API}/tasks`);
